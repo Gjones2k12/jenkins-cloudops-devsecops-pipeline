@@ -1,0 +1,17 @@
+# Python
+app/venv/
+__pycache__/
+*.pyc
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+.terraform.lock.hcl
+
+# Docker
+*.tar
+
+# Jenkins/local
+.env
+*.log
